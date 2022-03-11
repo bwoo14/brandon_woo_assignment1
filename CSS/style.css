@@ -23,8 +23,16 @@ main {
 }
 
 footer {
-    bottom: auto;
+    display: flex;
+    justify-content: center;  
+}
+
+.slide_bar {
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.new_note {
     display: flex;
     justify-content: center;
-    
 }
