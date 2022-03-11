@@ -1,4 +1,8 @@
-# Color Palette for Assignment 1
+# Assignment 1
+
+## Description
+
+A note taking webpage which currently does not have functioning buttons or features
 
 ## link to my color palette
 
