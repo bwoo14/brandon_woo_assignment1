@@ -39,14 +39,6 @@ button, a {
     color: #26233A
 }
 
-a:visited {
-    color: #C4A7E7;
-    text-decoration: underline overline #C4A7E7;
-}
-  
-a:hover {
-    background: #31748f;
-}
 
 .sep_note {
     display: flex;
@@ -67,6 +59,7 @@ a:hover {
 }
 .slide_button {
     font-size: 30px;
+    text-align: right;
 }
 
 .slide_bar {
@@ -80,9 +73,30 @@ a:hover {
 }
 
 .note {
-    margin-right: 650px;
+    margin-right: 600px;
     margin-top: 200px;
+    font-family: 'Roboto Slab', serif;
 }
 
+.list_notes {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+.add_note {
+    font-size: 30px;
+}
+
+.save {
+    text-align: right;
+    margin-right: 600px;
+}
+
+.create_notes {
+    display: flex;
+}
 
 /* @media screen and (max-width: 500px) { */

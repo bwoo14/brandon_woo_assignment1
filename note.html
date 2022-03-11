@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -25,13 +25,20 @@
                 <<
             </button>
             <ul>
-                <li><b>my notes</b></li>
-                <li>note one</li>
-                <li>note two</li>
+                <li class="list_notes"><a href='#'><strong>my notes</strong></a></li>
+                <li class="list_notes"><a href='#'>note one</a></li>
+                <li class="list_notes"><a href='#'>note two</a></li>
             </ul>
         </div>
         <div>
-            +<textarea class = 'note' rows="5" cols="33">your note here</textarea>
+            <div class="create_notes">
+                <button class="button add_note">+</button>
+                <textarea class = 'note' rows="10" cols="33">your note here</textarea>
+            </div>
+            <div class="save">
+                <button class="button">save</button>
+                <button class="button">delete</button>
+            </div>
         </div>
 
     </main>
