@@ -1,5 +1,4 @@
 
-
 body {
     background-color: #9CCFD8;
     margin: 0;
@@ -40,12 +39,32 @@ button, a {
     color: #26233A
 }
 
+a:visited {
+    color: #C4A7E7;
+    text-decoration: underline overline #C4A7E7;
+}
+  
+a:hover {
+    background: #31748f;
+}
+
+.sep_note {
+    display: flex;
+    justify-content: space-between;
+
+}
 .button {     
     border: none;
     background: none;
     cursor: pointer;  
 }
 
+.slide_menu {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    background-color: #C4A7E7;
+}
 .slide_button {
     font-size: 30px;
 }
@@ -58,6 +77,11 @@ button, a {
 .new_note {
     display: flex;
     justify-content: center;
+}
+
+.note {
+    margin-right: 650px;
+    margin-top: 200px;
 }
 
 
