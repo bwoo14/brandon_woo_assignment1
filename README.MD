@@ -6,8 +6,8 @@ A note taking webpage which currently does not have functioning buttons or featu
 
 ## link to my color palette
 
-[my color palette](https://colors.dopely.top/palette-generator/yYnIuIWBWut)
+[my color palette](https://colors.dopely.top/palette-generator/BNORCpvTeef)
 
 ## image of my color palette
 
-![my color palette](images/palette.png)
+![my color palette](images/palette.JPG)
